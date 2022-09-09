@@ -1,0 +1,43 @@
+*{
+    margin:0%;
+    padding: 0%
+  }
+  body{
+    width:100vw;
+    height:100vh;
+  }
+  h1{
+    position:relative;
+    top:40%;
+    font-size:500%;
+  }
+  .container{
+    height:100%;
+    width:100%;
+    color:rgba(120, 117, 117, 0.8);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+    scroll-padding: 0%;
+    background-image:url(trees.jpg);
+    background-size:cover;
+  }
+  section{
+    width:100vw;
+    height:100vh;
+    text-align: center;
+    scroll-snap-align: start;
+  }
+  section:nth-of-type(1){
+    background-image:url(river.jpg);
+    background-size:cover;
+    
+  }
+  section:nth-of-type(2){
+    background:transparent;
+  }
+  section:nth-of-type(3){
+    background-image:url(mountains.jpg);
+      background-size:cover;
+  }
